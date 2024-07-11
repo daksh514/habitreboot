@@ -1,0 +1,9 @@
+KINDE_CLIENT_ID=36629eecfe82477893bb4d86c6377db4
+KINDE_CLIENT_SECRET=aT5NxPSMaz7h7M09p8yAfOadiQrhREmpplBnUI6ofR7zZ5aO6KMNO
+KINDE_ISSUER_URL=https://shareizing.kinde.com
+KINDE_SITE_URL=http://localhost:3000
+KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
+KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/api/auth/creation
+
+DATABASE_URL="?pgbouncer=true&connection_limit=1" # Set this to the Transaction connection pooler string you copied in Step 1
+DIRECT_URL=""  # Set this to the Session connection pooler string you copied in Step 1
