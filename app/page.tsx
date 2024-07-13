@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSec from "@/components/sections/HeroSec";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import Image from "next/image";
 
 export default async function Home() {
   const { getUser } = getKindeServerSession();
